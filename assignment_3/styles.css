@@ -25,19 +25,31 @@ div
 
 /***************************/
 /* BEGIN YOUR CHANGES HERE */
-/***************************/
+/************
+Take note of the following while working on the challenge complete this assignment:
+DO NOT modify the HTML in any way. You should only change styles.css.
+Use only the float property for the first row.
+Use only the display property for the second row.
+Use only the position, top, bottom, `left`, and right properties for the third row.
+d3 moves with the window.
+c3 does not move with the window.
+***************/
 
 /* FIRST ROW : FLOATS; */
 .a1 {
+	float:left;
 }
 
 .b1 {
+	float: left;
 }
 
 .c1 {
+	float:right;
 }
 
 .d1 {
+	float:right;
 }
 
 /* SECOND ROW : DISPLAY */
@@ -46,24 +58,37 @@ div
 }
 
 .b2 {
+	display:none;
 }
 
 .c2 {
+	display: inline;
 }
 
 .d2 {
+	display: block;
 }
 
 /* THIRD ROW : POSITION */
 
 .a3 {
+	position: absolute;
 }
 
 .b3 {
+	position:relative;
+	left: 120px;
+	bottom: 50px;
 }
 
 .c3 {
+	position: relative;
+	left: 1050px;
+	top: 50px;
 }
 
 .d3 {
+	position:fixed;
+	top: 300px;
+    right: 500px;
 }
