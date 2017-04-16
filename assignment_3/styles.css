@@ -37,10 +37,10 @@ c3 does not move with the window.
 
 /* FIRST ROW : FLOATS; */
 .a1 {
-	float:left;
+	float:right;
 }
 
-.b1 {
+.d1 {
 	float: left;
 }
 
@@ -48,8 +48,8 @@ c3 does not move with the window.
 	float:right;
 }
 
-.d1 {
-	float:right;
+.b1 {
+	float:left;
 }
 
 /* SECOND ROW : DISPLAY */
